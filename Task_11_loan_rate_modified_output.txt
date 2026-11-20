@@ -1,0 +1,8 @@
+Monthly rate using Newton-Raphson: 1.555981%
+Monthly rate using Secant method: 1.555981%
+Newton iterations: 4
+Secant iterations: 6
+Nominal annual rate: 18.6718%
+Effective annual rate: 20.3555%
+Total interest paid: 1040.00
+Gap at Newton solution: -9.09e-12

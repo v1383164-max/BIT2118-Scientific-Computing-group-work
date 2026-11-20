@@ -1,0 +1,8 @@
+Volume using trapezoidal rule: 1,261,800 m3
+Volume using Simpson's rule: 1,262,400 m3
+Difference between estimates: 600 m3
+Average flow over 12 hours: 29.22 m3/s
+
+Accuracy check on sin(x) from 0 to pi with 9 points (exact value 2)
+Trapezoidal error: 2.577e-02
+Simpson error: 2.692e-04

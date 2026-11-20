@@ -1,0 +1,5 @@
+h=4.0: population at t=30 is 992.794, absolute error 7.0829
+h=1.0: population at t=30 is 999.993, absolute error 0.0480
+h=0.1: population at t=30 is 999.952, absolute error 0.0078
+Exact population at t=30: 999.945
+Carrying capacity: 1000

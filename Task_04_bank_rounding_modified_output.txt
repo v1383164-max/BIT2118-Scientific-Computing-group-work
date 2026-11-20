@@ -1,0 +1,11 @@
+Naive loop total: 100000.0000013329
+math.fsum total: 100000.0000000000
+NumPy pairwise total: 100000.0000000000
+Decimal total: 100000.0
+naive: absolute error = 1.333e-06, relative error = 1.333e-11
+fsum: absolute error = 0.000e+00, relative error = 0.000e+00
+numpy: absolute error = 2.910e-11, relative error = 2.910e-16
+Naive total equals expected exactly: False
+Naive total close to expected: True
+Balance after 12 months at 1.5 percent: 1195.618171
+Rounded to cents: 1195.62

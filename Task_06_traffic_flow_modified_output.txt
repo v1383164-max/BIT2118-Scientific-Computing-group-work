@@ -1,0 +1,7 @@
+Road 1 flow (vehicles/hour): 300.0
+Road 2 flow (vehicles/hour): 500.0
+Road 3 flow (vehicles/hour): 200.0
+Verification A @ solution: [800. 700. 500.]
+Residual norm: 0.0
+Determinant: 2.0
+Condition number: 2.0

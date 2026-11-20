@@ -1,0 +1,7 @@
+Mean project duration: 30.99 days
+Standard deviation: 3.71 days
+90th percentile duration: 36.07 days
+Probability of missing the 30-day deadline: 57.3835%
+Number of overruns: 114767 out of 200000
+Pi estimate with 1000000 points: 3.13967
+Error against np.pi: 0.00192

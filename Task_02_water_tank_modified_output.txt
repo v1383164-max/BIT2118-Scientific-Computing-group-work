@@ -1,0 +1,8 @@
+Mean level: 3389.6 L (3.390 m3)
+Minimum level: 2300 L at hour 10
+Maximum level: 4200 L at hour 0
+First six readings as percent full: [84. 82. 80. 78. 77. 76.]
+First six readings in m3: [4.2  4.1  4.   3.9  3.85 3.8 ]
+Largest hourly drop: -500 L
+Largest hourly rise: 400 L
+Hours below 50 percent full: 2 of 24

@@ -1,0 +1,13 @@
+Initial guess: [5.0, 1.5]
+Path enters or leaves the zone at: [4.9612 1.4806]
+Residuals: [3.552713678800501e-15, -2.220446049250313e-16]
+Converged: True
+
+Initial guess: [-0.2, -1.0]
+Path enters or leaves the zone at: [-0.1612 -1.0806]
+Residuals: [3.552713678800501e-15, 0.0]
+Converged: True
+
+Projectile height roots (s): [ 4.1793 -0.0977]
+Landing time: 4.1793 s
+Height at landing time: -7.55e-15 m

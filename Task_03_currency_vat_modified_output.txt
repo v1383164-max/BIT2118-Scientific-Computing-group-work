@@ -1,0 +1,6 @@
+First five totals in USD: [279.5  400.79 346.62 101.27 134.68]
+Grand total in USD: 447,354,136.17
+Both versions agree: True
+Loop time: 0.3599 s
+Vectorized time: 0.0053 s
+Approximate speed-up: 68.0x

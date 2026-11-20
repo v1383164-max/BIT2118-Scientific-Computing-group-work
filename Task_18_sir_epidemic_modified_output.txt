@@ -1,0 +1,6 @@
+Solver success: True
+Basic reproduction number R0: 4.00
+Peak infections: 403.6 people on day 27.2
+Total ever infected by day 160: 980.2 of 1000
+Still susceptible at day 160: 19.8
+Largest deviation from population size: 6.821e-13

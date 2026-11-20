@@ -1,0 +1,14 @@
+Original waypoints:
+ [[0. 0.]
+ [2. 0.]
+ [2. 1.]]
+Transformation matrix:
+ [[ 0.433 -0.25   4.   ]
+ [ 0.25   0.433  3.   ]
+ [ 0.     0.     1.   ]]
+Transformed waypoints:
+ [[4.    3.   ]
+ [4.866 3.5  ]
+ [4.616 3.933]]
+Determinant: 0.25
+Inverse recovers original path: True

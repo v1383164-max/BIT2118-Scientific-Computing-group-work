@@ -1,0 +1,7 @@
+Direct solution: [73.75 67.5  61.25 55.   48.75 42.5  36.25]
+Jacobi solution: [73.75 67.5  61.25 55.   48.75 42.5  36.25]
+Gauss-Seidel solution: [73.75 67.5  61.25 55.   48.75 42.5  36.25]
+Jacobi iterations: 263
+Gauss-Seidel iterations: 132
+Jacobi max error vs direct: 6.506225247449038e-08
+Gauss-Seidel max error vs direct: 5.52623760086135e-08

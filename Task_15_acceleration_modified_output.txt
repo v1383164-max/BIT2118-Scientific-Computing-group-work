@@ -1,0 +1,18 @@
+t=0s, velocity=0.0m/s, estimated acceleration=2.10m/s2
+t=1s, velocity=2.1m/s, estimated acceleration=2.15m/s2
+t=2s, velocity=4.3m/s, estimated acceleration=2.35m/s2
+t=3s, velocity=6.8m/s, estimated acceleration=2.35m/s2
+t=4s, velocity=9.0m/s, estimated acceleration=2.20m/s2
+t=5s, velocity=11.2m/s, estimated acceleration=2.05m/s2
+t=6s, velocity=13.1m/s, estimated acceleration=1.80m/s2
+t=7s, velocity=14.8m/s, estimated acceleration=1.45m/s2
+t=8s, velocity=16.0m/s, estimated acceleration=1.00m/s2
+t=9s, velocity=16.8m/s, estimated acceleration=0.50m/s2
+t=10s, velocity=17.0m/s, estimated acceleration=0.20m/s2
+Peak acceleration: 2.35 m/s2 at t=3s
+
+Step-size study for the derivative of sin(x) at x=1
+       h    forward error    central error
+     0.1        4.294e-02        9.001e-04
+    0.01        4.216e-03        9.005e-06
+   0.001        4.208e-04        9.005e-08

@@ -1,0 +1,10 @@
+Dominant eigenvalue: 1.0000000000000004
+Column sums of G: [1. 1. 1. 1. 1.]
+PageRank scores from eigenvector:
+Shop: 0.3498
+Home: 0.3273
+Blog: 0.1691
+About: 0.0869
+Contact: 0.0669
+Power iteration agrees: True
+Verification error: 2.8031757299712627e-16

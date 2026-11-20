@@ -1,0 +1,41 @@
+BIT 2118 SCIENTIFIC COMPUTING - GROUP WORK SUMMARY (for the presentation)
+
+WHAT WAS DONE
+For every task (2 to 20) we did four things:
+  1. Ran the given program and identified its inputs and the maths it performs.
+  2. Changed one input or parameter and explained how the result changed.
+  3. Explained the output (and the graph) in plain words.
+  4. Wrote a new program for a different but related real-world case, with its own assumptions, data, output and interpretation.
+All programs are in the folders code, changed_parameter and modified_case. All outputs and graphs are in outputs. A full write-up per task is in docs.
+
+TASK BY TASK (original idea -> what we changed -> our new real-world case)
+ 2  NumPy arrays: daily temperature stats. Changed one reading to a spike: mean and max rose, min did not. New case: water-tank sensor levels.
+ 3  Vectorization: 1 million latencies, about 56x faster than a loop. Fewer values gave a smaller speed-up. New case: 2 million prices with currency and VAT, about 68x faster.
+ 4  Floating-point errors: 0.1 + 0.2 is not exactly 0.3, so use np.isclose. A better approximation of sqrt(2) cut the error about 60 times. New case: adding a million small bank deposits.
+ 5  Matrix algebra: rotate and scale a square, determinant 3 is the area scaling. Changing 45 to 90 degrees turned it a quarter turn. New case: drone waypoints with rotation, scaling and shifting.
+ 6  Linear systems: 3 Type A and 4 Type B servers. New totals gave 5 and 3. New case: traffic flows of 300, 500 and 200 vehicles per hour.
+ 7  LU decomposition: factor once, solve many times. A different coefficient changed the answers. New case: circuit currents, LU about 46 times faster for repeated solves.
+ 8  Iterative methods: Gauss-Seidel needs about half the iterations of Jacobi. A looser tolerance meant fewer iterations but less accuracy. New case: heat along a 7-point rod.
+ 9  Eigenvalues: nodes B and C are the most central. Adding a link made all nodes equal. New case: PageRank of a 5-page website.
+10  Bisection and fixed point: equilibrium temperature 27.53 C. A stronger heat term gave 29.56 C. New case: break-even at 76.4 units.
+11  Newton and secant: IRR of 11.54 percent. Bigger final cash flow gave 17.09 percent. New case: loan interest rate of 1.56 percent per month.
+12  Nonlinear equations: circle meets parabola at two points. A bigger circle moved the points. New case: drone path against a no-fly zone, plus projectile landing time.
+13  Interpolation: cubic spline is smoother than linear. New case: filling missing sensor data; cubic error was about 60 times smaller.
+14  Curve fitting: quadratic model of server delay. Predicting further out (500 users) is less reliable. New case: app user growth, exponential model fits far better than a line.
+15  Numerical differentiation: speed from GPS positions. One bad reading spoiled nearby estimates. New case: acceleration from velocity; central difference is more accurate than forward.
+16  Numerical integration: energy from power readings, about 15.7 to 15.8 kWh. A sharper peak made the rules differ more. New case: river water volume; Simpson is about 100 times more accurate.
+17  Euler method: cooling curve. A bigger step (5 min) made the error about 4 times larger. New case: logistic population growth.
+18  solve_ivp: RC circuit charging. A bigger capacitor charges slower (3.57 V instead of 4.97 V at 5 s). New case: SIR epidemic, peak of 404 infected on day 27.
+19  Optimization: cheapest server mix is all Type B. Doubling the requirement doubled the cost. New case: chairs and tables, best profit 1350.
+20  Monte Carlo: server overload chance 10.6 percent. Higher demand raised it to 25.1 percent. New case: project deadline risk, 57 percent chance of missing 30 days.
+
+MAIN LESSONS
+- Vectorized NumPy code is far faster than loops.
+- Computer arithmetic has tiny errors, so compare numbers with a tolerance.
+- Direct methods give exact answers; iterative methods trade accuracy for speed.
+- Smaller steps or tighter tolerances give better accuracy but cost more computation.
+- Always check results: residuals, comparison with exact solutions, and graphs.
+- Be careful when predicting far outside the measured data.
+
+HOW TO SUBMIT
+Each student uploads this folder to their own GitHub repository (individual, not a group repository) and submits the link and documentation on VLMS.

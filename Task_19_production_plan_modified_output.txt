@@ -1,0 +1,7 @@
+Optimization success: True
+Chairs to make: 20.000
+Tables to make: 15.000
+Maximum profit: 1350.00
+Wood used: 100.00 of 100
+Labour used: 90.00 of 90
+Best whole-number plan (profit, chairs, tables): (1350.0, 20, 15)

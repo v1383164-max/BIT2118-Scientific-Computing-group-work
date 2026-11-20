@@ -1,0 +1,19 @@
+Voltage set 1: [12.  0. -6.]
+Mesh currents (A): [ 1.276968  0.19242  -0.559767]
+Residual norm: 9.992007221626409e-16
+
+Voltage set 2: [12.  3. -6.]
+Mesh currents (A): [ 1.434402  0.586006 -0.341108]
+Residual norm: 0.0
+
+Voltage set 3: [ 9.  0. -3.]
+Mesh currents (A): [ 1.001458  0.253644 -0.19242 ]
+Residual norm: 5.551115123125783e-17
+
+Voltage set 4: [0. 0. 0.]
+Mesh currents (A): [0. 0. 0.]
+Residual norm: 0.0
+
+300 solves with np.linalg.solve: 0.5632 s
+300 solves reusing LU factors: 0.0123 s
+Speed-up from reusing LU: 45.8x

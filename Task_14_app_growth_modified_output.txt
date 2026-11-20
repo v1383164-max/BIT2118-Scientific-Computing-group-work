@@ -1,0 +1,7 @@
+Exponential model: users = 9.744 * exp(0.2235 * month)
+Monthly growth rate: 25.05%
+Doubling time: 3.10 months
+Exponential RMSE: 0.22 thousand, R2 = 0.9999
+Linear RMSE: 6.61 thousand, R2 = 0.9304
+Predicted users in month 12 (exponential): 142.5 thousand
+Predicted users in month 12 (linear): 95.3 thousand

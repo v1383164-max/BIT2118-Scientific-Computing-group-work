@@ -1,0 +1,6 @@
+Optimization success: True
+Type A allocation: 0.000
+Type B allocation: 11.765
+Total capacity: 2000.00
+Minimum planning cost: 211.76
+Best nearby integer solution: (216, 0, 12, 2040)
